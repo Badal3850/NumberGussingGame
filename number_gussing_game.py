@@ -1,4 +1,4 @@
-import random
+import random;
 print("HEY! Let's play a game.\n Try to guess the Number.\n It can be anything between 1 to 100")
 print("Menu:\n's' to start the game \n'q' to quit the game")
 menu_input = input("")
@@ -19,6 +19,6 @@ if menu_input == 's':
                 print("Try entering larger number")
             else:
                 print("Congratulation !! YOU WON")
-        print(f"Number of guess left{TOTAL_NUMBER_OF_GUESS}: ")
+        print(f"Number of guess left: {TOTAL_NUMBER_OF_GUESS} ")
 elif menu_input == 'q':
     print("Have a good day ! See you Soon")
